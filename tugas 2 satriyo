@@ -11,6 +11,20 @@ def bypasswall():
     turn_right()
     move()
     turn_right()
+    move()
+    turn_left()
+
+while at_goal()==False:
+    bypasswall()
+
+Hurdle 2 :
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def bypasswall():
+    move()
 
 Hurdle 3
 def turn_right():
