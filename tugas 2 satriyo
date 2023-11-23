@@ -25,8 +25,22 @@ def turn_right():
     
 def bypasswall():
     move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
 
-Hurdle 3
+step()
+step()
+step()
+step()
+step()
+step()
+
+Hurdle 3:
 def turn_right():
     turn_left()
     turn_left()
